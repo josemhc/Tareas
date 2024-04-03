@@ -9,6 +9,8 @@ const App = () => {
   return (
     <>
     <FirstApp 
+    title = "Counter"
+    value = {0}
     />
    </>
   )

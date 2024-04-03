@@ -1,20 +1,42 @@
 import PropTypes from 'prop-types';
+import {useState} from "react"
+
+const FirstApp = ({title, value}) => {
+
+  const [counter, setCounter] = useState(value);
 
 
-const FirstApp = (props) => {
+  const sum = () => {
+    setCounter(counter+1);
+  }
+  const res = () => {
+    setCounter(counter-1);
+  }
+  const reiniciar = () => {
+    setCounter(0);
+  }
 
     return (
       <>
-     <h1> {props.title} </h1>
-     <span>{props.span}</span>
+     <h1> {title} </h1>
+     <span>{counter}</span>
+     <button onClick={() => sum()}> +1 </button>
+     <button onClick={() => res()}> -1 </button>
+     <button onClick={() => reiniciar()}> Reiniciar </button>
      </>
     )
   }
 
 FirstApp.propTypes = {
   title: PropTypes.string.isRequired,
-  sum: PropTypes.number.isRequired
+  value: PropTypes.number.isRequired
 }
+
+FirstApp.defaultProps={
+  title:"No hay titulo",
+  value: 0
+}
+
 
 
 
