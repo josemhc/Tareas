@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import FirstApp from './FirstApp'
+import { ComponentApp } from './ComponentApp'
 
 const App = () => {
 
@@ -11,6 +12,9 @@ const App = () => {
     <FirstApp 
     title = "Counter"
     value = {0}
+    />
+    <ComponentApp
+    categoria = "Tercera categoria"
     />
    </>
   )
