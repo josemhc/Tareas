@@ -1,0 +1,41 @@
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
+  
+  li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  span {
+    flex: 1;
+    cursor: pointer;
+  }
+  
+  span.text-decoration-line-through {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #c82333;
+  }
+  

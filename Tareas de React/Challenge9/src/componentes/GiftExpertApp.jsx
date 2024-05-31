@@ -1,5 +1,5 @@
 import { useState } from "react";
-import '../styles/componentes.css';
+import './Estilos.css';
 import { AddCategory } from "./AddCategory";
 import { GifGrid } from "./GifGrid";
 

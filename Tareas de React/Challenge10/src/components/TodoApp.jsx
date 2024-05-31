@@ -2,7 +2,7 @@ import { useEffect, useReducer } from "react";
 import { TodoAdd } from "./TodoAdd";
 import { TodoReducer } from "./TodoReducer";
 import { TodoList } from "./TodoList";
-
+import './TodoApp.css';
 
 const initialState = [];
 

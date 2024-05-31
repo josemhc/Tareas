@@ -1,13 +1,52 @@
-body {
+/* Estilos globales */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Estilo del body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e0f7fa; /* Color de fondo */
+  color: #333; /* Color del texto */
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Altura mínima de la ventana */
+  padding: 20px;
+}
+
+/* Estilo del contenedor raíz */
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Ajustes específicos para los encabezados */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  color: #007bff; /* Color del texto */
+}
+
+/* Ajustes específicos para párrafos */
+p {
+  margin-bottom: 1rem;
+}
+
+/* Enlaces */
+a {
+  color: #007bff; /* Color del enlace */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Botones globales */
+button {
+  font-family: 'Arial', sans-serif;
 }

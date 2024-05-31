@@ -1,0 +1,26 @@
+h1 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  small {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  hr {
+    margin: 20px 0;
+  }
+  
+  div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  div > div {
+    flex: 1;
+    margin: 0 10px;
+  }
+  

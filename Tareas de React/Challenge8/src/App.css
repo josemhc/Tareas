@@ -1,0 +1,46 @@
+/* Estilo general de la aplicación */
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Altura completa de la ventana */
+    background-color: #e0f7fa; /* Color de fondo */
+    font-family: 'Arial', sans-serif; /* Fuente */
+    padding: 20px;
+}
+
+/* Primer desafío */
+.primer-challenge {
+    background: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-bottom: 20px; /* Espacio inferior */
+    width: 100%;
+    max-width: 500px; /* Ancho máximo */
+    text-align: center; /* Centramos el contenido */
+}
+
+/* Segundo desafío */
+.segundo_challenge {
+    background: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-bottom: 20px; /* Espacio inferior */
+    width: 100%;
+    max-width: 500px; /* Ancho máximo */
+    text-align: center; /* Centramos el contenido */
+}
+
+/* Tercer desafío */
+.tercer_challenge {
+    background: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    width: 100%;
+    max-width: 500px; /* Ancho máximo */
+    text-align: center; /* Centramos el contenido */
+}

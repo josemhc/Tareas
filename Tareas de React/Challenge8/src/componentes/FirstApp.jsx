@@ -1,9 +1,9 @@
 import React from "react";
-
+import './FirstApp.css';
     function Challenge (){
         return(
         <div>
-            <h1>Primer Challenge</h1>
+            <h1>Hola Mundo</h1>
             <span>10</span>
         </div>
         )

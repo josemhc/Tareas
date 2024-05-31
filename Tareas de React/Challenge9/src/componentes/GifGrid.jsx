@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import '../styles/componentes.css';
+import './Estilos.css';
 
 export const GifGrid = ({ category }) => {
     const [gifs, setGifs] = useState([]);

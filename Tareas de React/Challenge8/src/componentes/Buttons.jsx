@@ -1,11 +1,11 @@
 import React from "react";
-
+import './Buttons.css';
 function NewsButtons({ onSubstract, onReset, onAdd}){
     return(
         <div>
-            <button onClick={onSubstract}>manejarSustraer</button>
-            <button onClick={onReset}>manejarRestablecer</button>
-            <button onClick={onAdd}>manejadAñadir</button>
+            <button onClick={onSubstract}>Restar</button>
+            <button onClick={onReset}>Reiniciar</button>
+            <button onClick={onAdd}>Sumar</button>
         </div>
     );
 }

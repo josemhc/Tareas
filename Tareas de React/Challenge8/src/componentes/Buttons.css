@@ -1,0 +1,27 @@
+/* Contenedor de los botones */
+.NewsButtons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre los botones */
+    margin-top: 20px; /* Espacio superior */
+}
+
+/* Estilo de los botones */
+.NewsButtons button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #007bff; /* Color de fondo */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.NewsButtons button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el cursor */
+}
+
+.NewsButtons button:active {
+    background-color: #004494; /* Color de fondo al hacer clic */
+}
